@@ -1,0 +1,9 @@
+PCBNEW-LibDoc----V1  9/8/2005-16:42:17
+#
+$MODULE TO220vert
+Li TO220vert
+Cd Transistor TO 220 vertical
+Kw TR TO220 DEV
+$EndMODULE
+#
+$EndLIBDOC

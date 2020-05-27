@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6N137
+D DIP8, High Speed Optocoupler, TTL Compatible, CTR 18%
+K High Speed Optocoupler
+F http://www.tme.eu/sk/Document/9e34bdb0dbfb6811f7da938330bd3ec8/6N137M.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3  Date: 24.3.2013 13:45:07
+#encoding utf-8
+#
+# Transil_bipolar
+#
+DEF Transil_bipolar TR 0 40 Y Y 1 F N
+F0 "TR" 85 90 50 H V L BNN
+F1 "Transil_bipolar" -87 -137 50 H V L BNN
+$FPLIST
+ DO_214AA
+ DO_214AC
+ DO_214
+$ENDFPLIST
+DRAW
+P 2 1 0 0  100 -50  100 50 N
+P 2 1 0 0  175 -25  200 -50 N
+P 2 1 0 0  175 0  100 -50 N
+P 2 1 0 0  175 0  100 50 N
+P 2 1 0 0  175 0  175 -25 N
+P 2 1 0 0  175 0  175 25 N
+P 2 1 0 0  175 25  150 50 N
+P 4 0 1 0  100 -50  250 50  250 -50  100 50 N
+X ~ 1 0 0 100 R 40 40 1 1 P
+X ~ 2 350 0 100 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

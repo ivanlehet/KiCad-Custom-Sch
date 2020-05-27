@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3  Date: 14.7.2013 17:43:40
+#encoding utf-8
+#
+# KONTROLKA
+#
+DEF KONTROLKA L 0 40 Y Y 1 F N
+F0 "L" 0 -260 60 H V C CNN
+F1 "KONTROLKA" 10 10 60 H V C CNN
+DRAW
+C 0 -130 78 0 1 0 N
+P 2 0 1 0  -80 -130  -90 -130 N
+P 2 0 1 0  0 -130  -55 -185 N
+P 2 0 1 0  0 -130  -55 -75 N
+P 2 0 1 0  0 -130  55 -185 N
+P 2 0 1 0  0 -130  55 -75 N
+P 2 0 1 0  90 -130  80 -130 N
+X ~ 1 -390 -130 300 R 60 60 1 1 P
+X ~ 2 390 -130 300 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

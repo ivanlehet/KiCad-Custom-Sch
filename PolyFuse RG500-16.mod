@@ -1,0 +1,78 @@
+PCBNEW-LibModule-V1  14.3.2016 14:59:51
+# encoding utf-8
+Units mm
+$INDEX
+PolyFuse_RG500_16
+pin_strip_2
+$EndINDEX
+$MODULE PolyFuse_RG500_16
+Po 0 0 0 15 56E6C1A3 00000000 ~~
+Li PolyFuse_RG500_16
+Cd Pin strip 2pin
+Kw CONN DEV
+Sc 0
+AR /56E59C7B
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "F3"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "5A"
+DS 5.2 -1.5 5.2 1.5 0.254 21
+DS 5.2 1.5 -5.2 1.5 0.254 21
+DS -5.2 1.5 -5.2 -1.5 0.254 21
+DS -5.2 -1.5 5.2 -1.5 0.254 21
+$PAD
+Sh "1" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 2 "/T3"
+Po -2.55 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 1 "/OUT3"
+Po 2.55 0
+$EndPAD
+$SHAPE3D
+Na "device/polyswitch.wrl"
+Sc 0.4 0.4 0.4
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE PolyFuse_RG500_16
+$MODULE pin_strip_2
+Po 0 0 0 15 56E6C1A3 00000000 ~~
+Li pin_strip_2
+Cd Pin strip 2pin
+Kw CONN DEV
+Sc 0
+AR /56E59C7B
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "F3"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "5A"
+DS 5.2 -1.5 5.2 1.5 0.254 21
+DS 5.2 1.5 -5.2 1.5 0.254 21
+DS -5.2 1.5 -5.2 -1.5 0.254 21
+DS -5.2 -1.5 5.2 -1.5 0.254 21
+$PAD
+Sh "1" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 2 "/T3"
+Po -2.55 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 1 "/OUT3"
+Po 2.55 0
+$EndPAD
+$SHAPE3D
+Na "device/polyswitch.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_2
+$EndLIBRARY

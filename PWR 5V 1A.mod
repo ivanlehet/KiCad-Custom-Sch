@@ -1,0 +1,106 @@
+PCBNEW-LibModule-V1  14.11.2014 20:08:42
+# encoding utf-8
+Units mm
+$INDEX
+PWR_5V_1A
+bornier4
+$EndINDEX
+$MODULE PWR_5V_1A
+Po 0 0 0 15 5466530A 00000000 ~~
+Li PWR_5V_1A
+Cd Bornier d'alimentation 4 pins
+Kw DEV
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.35 2.6162 1.59766 0 0.3048 N V 21 N "POWER SUPPLY"
+T1 0 5.08 1.524 1.524 0 0.3048 N V 21 N "5V/1A"
+DS -25.5 -12 25.5 -12 0.15 21
+DS 25.5 -12 25.5 12 0.15 21
+DS 25.5 12 -25.5 12 0.15 21
+DS -25.5 12 -25.5 -12 0.15 21
+$PAD
+Sh "2" C 3.81 3.81 0 0 900
+Dr 1.524 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.91 -2.49
+$EndPAD
+$PAD
+Sh "3" C 3.81 3.81 0 0 900
+Dr 1.524 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 23.165 2.535
+$EndPAD
+$PAD
+Sh "1" R 3.81 3.81 0 0 900
+Dr 1.524 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.91 2.59
+$EndPAD
+$PAD
+Sh "4" C 3.81 3.81 0 0 900
+Dr 1.524 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 23.165 -2.545
+$EndPAD
+$SHAPE3D
+Na "device/bornier_4.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE PWR_5V_1A
+$MODULE bornier4
+Po 0 0 0 15 5464E97B 00000000 ~~
+Li bornier4
+Cd Bornier d'alimentation 4 pins
+Kw DEV
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.35 2.6162 1.59766 0 0.3048 N V 21 N "U***"
+T1 0 5.08 1.524 1.524 0 0.3048 N V 21 N "PWR 5V/1A"
+DS -25.5 -12 25.5 -12 0.15 21
+DS 25.5 -12 25.5 12 0.15 21
+DS 25.5 12 -25.5 12 0.15 21
+DS -25.5 12 -25.5 -12 0.15 21
+$PAD
+Sh "2" C 3.81 3.81 0 0 900
+Dr 1.524 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.91 -2.49
+$EndPAD
+$PAD
+Sh "3" C 3.81 3.81 0 0 900
+Dr 1.524 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 23.165 2.535
+$EndPAD
+$PAD
+Sh "1" R 3.81 3.81 0 0 900
+Dr 1.524 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.91 2.59
+$EndPAD
+$PAD
+Sh "4" C 3.81 3.81 0 0 900
+Dr 1.524 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 23.165 -2.545
+$EndPAD
+$SHAPE3D
+Na "device/bornier_4.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE bornier4
+$EndLIBRARY

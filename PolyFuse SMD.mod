@@ -1,0 +1,78 @@
+PCBNEW-LibModule-V1  24.3.2014 20:08:09
+# encoding utf-8
+Units mm
+$INDEX
+PIN_ARRAY_2X1
+PolyFuseSMD
+$EndINDEX
+$MODULE PIN_ARRAY_2X1
+Po 0 0 0 15 5330820E 00000000 ~~
+Li PIN_ARRAY_2X1
+Cd Connecteurs 2 pins
+Kw CONN DEV
+Sc 0
+AR /532EF0CB
+Op 0 0 0
+T0 0 -1.905 0.762 0.762 0 0.1524 N V 21 N "F1"
+T1 0 -1.905 0.762 0.762 0 0.1524 N I 21 N "150mA"
+DS -2.36 1.7 2.36 1.7 0.15 21
+DS 2.36 1.7 2.36 -1.71 0.15 21
+DS 2.36 -1.71 -2.37 -1.71 0.15 21
+DS -2.37 -1.71 -2.37 1.7 0.15 21
+$PAD
+Sh "1" R 2 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "VCC"
+Po -2.36 0
+$EndPAD
+$PAD
+Sh "2" R 2 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "N-0000024"
+Po 2.36 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_2x1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE PIN_ARRAY_2X1
+$MODULE PolyFuseSMD
+Po 0 0 0 15 5330820E 00000000 ~~
+Li PolyFuseSMD
+Cd Connecteurs 2 pins
+Kw CONN DEV
+Sc 0
+AR /532EF0CB
+Op 0 0 0
+T0 0 -1.905 0.762 0.762 0 0.1524 N V 21 N "F1"
+T1 0 -1.905 0.762 0.762 0 0.1524 N I 21 N "150mA"
+DS -2.36 1.7 2.36 1.7 0.15 21
+DS 2.36 1.7 2.36 -1.71 0.15 21
+DS 2.36 -1.71 -2.37 -1.71 0.15 21
+DS -2.37 -1.71 -2.37 1.7 0.15 21
+$PAD
+Sh "1" R 2 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "VCC"
+Po -2.36 0
+$EndPAD
+$PAD
+Sh "2" R 2 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "N-0000024"
+Po 2.36 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_2x1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE PolyFuseSMD
+$EndLIBRARY

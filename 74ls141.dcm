@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0  Date: 30.12.2013 20:54:54
+#
+$CMP 74LS141
+D 74141
+K Decoder NIXIE driver
+F C:/Users/Ivo/Documents/Datasheets/74141 BCD prevodnik.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 1.9.2013 16:44:04
+#
+$CMP LM2574N
+D Spin. regulator 0,5A
+F C:/Users/Ivo/Documents/Datasheets/LM2574N.pdf
+$ENDCMP
+#
+#End Doc Library

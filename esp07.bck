@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2XRJ45_LEDS
+D RJ45, status leds
+K 4XRJ45 RJ45_LEDS
+$ENDCMP
+#
+$CMP 4XRJ45_LEDS
+D RJ45, status leds
+K 4XRJ45 RJ45_LEDS
+$ENDCMP
+#
+$CMP ESP32
+D ESP32
+$ENDCMP
+#
+$CMP FLASH_16Mbit
+D 16Mbit Flash memory, SPI interface
+$ENDCMP
+#
+$CMP Led_2in1
+D DOUBLE type Bicolore
+K LED
+$ENDCMP
+#
+#End Doc Library

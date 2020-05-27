@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0  Date: 29.3.2013 13:58:29
+#
+$CMP TES_2N
+D Power switch
+K TES 2N
+F C:/Users/Ivo/Documents/Datasheets/TES 2N Traco Power.pdf
+$ENDCMP
+#
+#End Doc Library
